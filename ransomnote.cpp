@@ -20,4 +20,4 @@ public:
 
 // Used Hashmap
 // Time Complexity: O(n)    n=length of the string of magazine letters
-// https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/
+// https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/
