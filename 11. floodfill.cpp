@@ -2,8 +2,7 @@ class Solution {
 public:
     
     void fill(vector<vector<int>>& image, 
-                                  int r, int c, int newc, int color ) {
-     
+              int r, int c, int newc, int color ) {
         
         if(image[r][c]==color){
             image[r][c]=newc;
@@ -26,8 +25,7 @@ public:
         if(color!=newColor)
             fill(image, sr,sc,newColor, color);
         return image;
-    }
-        
+    }   
 };
 
 // https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/
