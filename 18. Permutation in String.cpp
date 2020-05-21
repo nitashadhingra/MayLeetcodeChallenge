@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/permutation-in-string/
+// https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/
+
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
@@ -28,5 +31,4 @@ public:
 };
 
 // Time Complexity: O(l1 + 26*(l2-l1))
-// Space Complexity: O(26)
-// https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/
+// Space Complexity: O(1)
